@@ -3,10 +3,10 @@ import telegram
 from telegram.ext import CommandHandler, Filters, MessageHandler, Updater
 
 # Set up the OpenAI API key
-openai.api_key = "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"
+openai.api_key = ""
 
 # Set up the Telegram bot
-bot = telegram.Bot(token="6221139469:AAEV4B0QbYJO8go5bxtCzwocTJp2u4bI35o")
+bot = telegram.Bot(token="")
 updater = Updater(bot=bot, use_context=True)
 
 # Define a global variable to store the current state of the conversation
